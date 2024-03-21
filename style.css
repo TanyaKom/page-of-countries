@@ -1,0 +1,130 @@
+/* #region header */
+body {
+    margin: 50px 110px;
+}
+.header {
+    margin: 45px 0;
+}
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 72.72px;
+    color: #000000;
+}
+input {
+    background-image: url("./pictures/search.png");
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    width: 376px;
+    height: 44px;
+    border-radius: 8px;
+    border: 2px solid #DEDFE5;
+    box-shadow: 0px 4px 4px #DEDFE5;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    padding-left: 36px;
+}
+/* #endregion header*/
+/* #region day-night theme */
+.switch-btn {
+    background-color: #242424;
+    width: 70px;
+    height: 32px;
+    border-radius: 19px;
+    display: flex;
+    justify-content: space-between;
+    margin: -100px 0px 0px auto;
+    padding: 0;
+    border: 2px solid transparent;
+    cursor: pointer;
+    position: relative;
+    align-items:center;
+    transition-duration: 300ms; /* анимация */
+}
+.btn_indicator {
+    background-color: #FF3D00;
+    box-shadow: 0px 2px 6px #FF3D00;
+    height: 29px;
+    width: 29px; 
+    border-radius: 17px;
+    position: absolute;
+    transition: transform .3s ease;
+}
+.btn_img_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn_img-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hidden {
+    display: none;
+}
+/* #endregion day-night theme */
+/* #region select */
+#select_region {
+    width: 144px;
+    height: 44px;
+    border-radius: 8px;
+    border: 2px solid #DEDFE5;
+    box-shadow: 0px 4px 4px #DEDFE5;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px 0px auto;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+    text-align: center;
+}
+/* #endregion select */
+/* #region cards */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 35px;
+}
+.card {
+    width: 287px;
+    height: 325px;
+    border-radius:8px;
+    box-shadow: 0px 4px 4px #DEDFE5;
+    border: 2px solid transparent;
+}
+.card h2 {
+    margin-left: 35px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 31px;
+}
+.card p {
+    margin: -5px 35px;
+}
+.card img {
+    width: 100%;
+    height: 179px;
+}
+.title {
+    font-weight: 500;
+    font-size: 14px;
+    color: #353535;
+    line-height: 25.45px;
+}
+.text {
+font-weight: 400;
+font-size: 14px;
+color: #353535;
+line-height: 25.45px;
+}
+
+/* #endregion cards */

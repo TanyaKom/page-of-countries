@@ -1,0 +1,39 @@
+.darkmode h1 {
+    color: #FFFFFF;
+}
+.darkmode input {
+    background-color: #242424;
+    color: #9A99A2;
+    box-shadow: none;
+    border: 2px solid #9A99A2;
+}
+body.darkmode {
+    background-color: #242424;
+}
+.darkmode .btn_indicator {
+    transform: translateX(40px);
+    background-color: #2400FF;
+    box-shadow: 0px 2px 6px #2400FF;
+}
+.darkmode .switch-btn {
+    border: 2px solid #808080;
+}
+.darkmode #select_region {
+    background-color: #242424;
+    color: #9A99A2;
+    box-shadow: none;
+    border: 2px solid #9A99A2;
+}
+.darkmode .card {
+    box-shadow: none;
+    border: 2px solid #9A99A2;
+}
+.darkmode .card h2 {
+    color: #FFFFFF;
+}
+.darkmode .title {
+    color: #FFFFFF;
+}
+.darkmode .text {
+    color: #FFFFFF;
+}

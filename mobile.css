@@ -1,0 +1,61 @@
+@media (max-width: 832px) {
+    body {
+        margin: 30px 50px;
+    }
+    .cards {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 705px) {
+    body {
+        margin: 60px 15px;
+    }
+    h1 {
+        text-align: center;
+    }
+    .header {
+        margin: 21px 0;
+    }
+    .switch-btn {
+        margin: -190px 0px 160px auto;
+    }
+    input {
+        width: 100%;
+        margin: 0px 0px 10px 0px;
+        padding-left: 0px;
+        text-align: center;
+        background-size: 28px;
+    }
+    #select_region {
+        width: 100%;
+    }
+    .cards {
+        display: flex;
+        gap: 10px;
+    }
+   .card {
+        width: 167px;
+        height: 209px;
+    }
+    .card img {
+        width: 167.29px;
+        height: 104.34px;
+    }
+    .card h2 {
+        margin: 10px 10px;
+    }
+    .card p {
+        margin: -15px 10px;
+    }
+    .title {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 18.18px;
+    }
+    .text {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 18.18px;
+    }
+}
